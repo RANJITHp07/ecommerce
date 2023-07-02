@@ -1,0 +1,15 @@
+.log{
+    padding: 4rem
+}
+
+@media  screen and (max-width:767px) {
+    .log{
+        padding:1rem
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .register{
+        display: none;
+    }
+}

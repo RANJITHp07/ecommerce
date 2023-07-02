@@ -1,0 +1,11 @@
+.item{
+    border-radius:1rem;
+    filter: blur(0.8px);
+}
+
+.items-title{
+    position: absolute;
+   bottom: 0;
+   margin-left:1rem;
+   z-index: 1;
+}

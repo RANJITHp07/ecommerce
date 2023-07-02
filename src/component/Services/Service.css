@@ -1,0 +1,25 @@
+.service div h3{
+    font-family: 'Oswald', sans-serif;
+    color:rgb(231, 231, 105);
+}
+
+.service div p{
+    color: aliceblue;
+}
+
+.service{
+    background-color: gray;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:767px) {
+    .service div p{
+        display: none;
+    }
+    .service{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}

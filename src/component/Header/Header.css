@@ -1,0 +1,52 @@
+.carousel-item {
+    position: relative; 
+  }
+
+  .header{
+   position: relative;
+  }
+  
+  .offer {
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+  }
+
+  .offer h1{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 5rem;
+  }
+
+  .offer button{
+    border-radius: 30px;
+    font-size:x-large
+  }
+
+  @media screen and (max-width:767px) {
+     .offer{
+        top:1rem;
+        left:2rem
+     }
+     .offer h1{
+        font-size:1.5rem;
+     }
+     .offer button{
+        font-size: x-small;
+     }
+  }
+  
+  .login{
+   position: absolute;
+   top:15rem;
+   left: 45rem;
+   z-index: 1;
+   transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width:767px) {
+       .login{
+         top:2rem;
+         left: 10rem;
+       }
+  }
